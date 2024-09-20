@@ -27,7 +27,7 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover -s tests
+        python -m unittest discover -s customer_order_app
 
     - name: Deploy to Production
       if: github.ref == 'refs/heads/main'
